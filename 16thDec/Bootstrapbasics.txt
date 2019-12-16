@@ -1,0 +1,11 @@
+Grid Format
+
+1 Row----- 12 Columns
+
+col-xs-
+col-sm-
+col-md-     (md means middle divisor)
+col-lg-
+
+We have a pre-defined class called "Responsive" which automatically adjust based on device
+Bootstrap is mainly designed for div tags
