@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/JavaScript">
+            function callMe() {
+                var x = document.getElementById("UserName");
+                var pattern=RegExp("^[A-Z a-z 0-9 _ .]{6,12}$");
+                if (pattern.test(x.value)) {
+                    document.write("Succesfull")
+                }
+                else{
+                    document.write("Failed")
+                }
+            }
+
+        </script>
+        <title>JS 01</title>
+    </head>
+    <body>
+        <input id="UserName" placeholder="Username"/>
+        <button onclick="callMe()">Submit </button>
+    </body>
+</html>
