@@ -1,0 +1,29 @@
+<div class="responsive">
+  <div class="row">
+    <div class="col-md-4 sidenav">
+      <mat-list>
+        <mat-list-item><strong>ASPNETCoreAn...</strong></mat-list-item>
+        <hr>
+        <a><mat-list-item>Home</mat-list-item></a>
+        <a><mat-list-item>Counter</mat-list-item></a>
+        <a><mat-list-item  style="background-color: blue;">Fetch Data</mat-list-item></a>
+      </mat-list>
+    </div>
+    <div class="col-md-8 col2">
+      <h1>Weather Forecast</h1>
+      <h2>The component demonstrates fetching data from server</h2>
+      Summary:
+      <mat-form-field>
+        <select matNativeControl required>
+          <option >--All--</option>
+          <option ><a routerLink="Fetchdata">Freezing</a></option>
+          <option >Brazing</option>
+          <option >Chilly</option>
+          <option >Cool</option>
+          
+        </select>
+      </mat-form-field>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
