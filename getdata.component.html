@@ -1,0 +1,21 @@
+<h2>Weather Conditions</h2>
+      <select (change)="dis($event)">
+        <option value="1">Freezing</option>
+        <option value="2">Cold</option>
+        <option value="3">Hot</option>
+      </select>
+      <br><br><br>
+      <table class="table table-stripped">
+        <thead>
+          <tr>
+            <th>Place</th>
+            <th>Temp</th>
+            <th>Humidity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td *ngFor="let a of item">{{a}}</td>
+          </tr>
+        </tbody>
+      </table>
